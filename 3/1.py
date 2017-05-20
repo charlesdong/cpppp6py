@@ -1,5 +1,5 @@
 height = int(input('Enter your height in inches: '))
-FPI = 12
-feets = height / FPI
-inches = height % FPI
+IPF = 12  # inches per feet
+feets = height / IPF
+inches = height % IPF
 print('Your height:', feets, 'feet(s),', inches, 'inch(es).')
