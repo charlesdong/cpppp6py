@@ -6,4 +6,4 @@ scores = []
 for i in range(3):
 	scores.append(float(input('Enter score %d: ' % (i + 1))))
 
-print('Average score:', reduce(lambda x, y: x + y, scores) / 3.0)
+print('Average score:', sum(scores) / 3.0)
