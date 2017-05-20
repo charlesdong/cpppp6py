@@ -1,0 +1,10 @@
+secs = int(input('Enter the number of seconds: '))
+temp = secs
+s = temp % 60
+temp //= 60
+m = temp % 60
+temp //= 60
+h = temp % 60
+temp //= 60
+d = temp
+print('%d seconds = %d days, %d hours, %d minutes, %d seconds' % (secs, d, h, m, s))
