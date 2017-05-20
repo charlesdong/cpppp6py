@@ -1,0 +1,7 @@
+fname = input('What is your first name? ')
+lname = input('What is your last name? ')
+grade = input('What letter grade do you deserve? ')
+age = int(input('What is your age? '))
+print('Name: %s, %s' % (lname, fname))
+print('Grade:', chr(ord(grade) + 1))
+print('Age:', age)
