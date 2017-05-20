@@ -1,2 +1,2 @@
 age = int(input('Enter your age: '))
-print('Your age includes', age * 12, 'year(s).')
+print('Your age includes %i year(s).' % (age * 12) )
