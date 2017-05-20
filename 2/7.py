@@ -1,6 +1,6 @@
-def show(h, m):
-  print('Time: %d:%d' % (h, m))
+def show_time(hours, minutes):
+  print('Time: %i:%i' % (hours, minutes))
 
-h = int(input('Enter the number of hours: '))
-m = int(input('Enter the number of minutes: '))
-show(h, m)
+hours = int(input('Enter the number of hours: '))
+minutes = int(input('Enter the number of minutes: '))
+show_time(hours, minutes)
