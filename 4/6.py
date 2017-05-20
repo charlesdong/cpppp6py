@@ -1,4 +1,4 @@
-class CandyBar:
+class CandyBar(object):
     def __init__(self, name, weight, heat):
         self.name = name
         self.weight = weight
